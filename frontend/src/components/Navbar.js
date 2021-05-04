@@ -2,7 +2,7 @@ import "./Navbar.css";
 import { Link } from "react-router-dom";
 // import { useSelector } from "react-redux";
 
-const Navbar = () => {
+const Navbar = ({click}) => {
   // const cart = useSelector((state) => state.cart);
   // const { cartItems } = cart;
 
@@ -31,7 +31,7 @@ const Navbar = () => {
         </li>
       </ul>
 
-      <div className="hamburger__menu">
+      <div className="hamburger__menu" onClick={click}>
         <div></div>
         <div></div>
         <div></div>
