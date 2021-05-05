@@ -42,6 +42,9 @@ const CartScreen = () => {
           <h2>Shopping Cart</h2>
 
           <CartItem />
+          <CartItem />
+          <CartItem />
+          <CartItem />
 
           {/* {cartItems.length === 0 ? (
             <div>
