@@ -19,7 +19,11 @@ const HomeScreen = () => {
   }, [dispatch]);
 
   return (
+
     <div className="homescreen">
+      {/* <div className="lady">
+          <img className="centerfit" src="try.jpg" alt="lady"></img>
+      </div> */}
       <h2 className="homescreen__title">Latest Products</h2>
       <div className="homescreen__products">
         {loading ? (
