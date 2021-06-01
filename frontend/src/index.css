@@ -5,7 +5,8 @@
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #FFE8E5;
+    /* background: rgb(210, 172, 105); */
+    background: #e5e4e2;
     transition: all 0.5s ease;
     /* background: url(../public/try1.jpg); */
 }
@@ -13,8 +14,8 @@ body {
 img {
     width: 100%;
     object-fit: scale-down;
-    padding: 1rem;
+    /* padding: 1rem; */
 }
 .bg-active{
-    background-color: rgb(248, 250, 252);
+    background-color: #3d3d3d;
   }

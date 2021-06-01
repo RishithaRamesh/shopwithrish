@@ -14,6 +14,7 @@
       height: 100%;
       width: 10rem;
       padding-right: 25px;
+      padding: 1rem;
   }
   .cartitem2{
     justify-self: start;
