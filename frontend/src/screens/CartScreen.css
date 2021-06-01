@@ -7,6 +7,7 @@
   
   .cartscreen h2 {
     margin-bottom: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   }
   
   .cartscreen__left {
@@ -23,15 +24,18 @@
     height: fit-content;
   }
   
-  .cartscreen__right div {
+  .cartscreen__right {
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
   }
   
-  .cartscreen__info p {
+  .cartscreen__info p{
     padding: 8px;
   }
   
+  .proceed{
+    padding: 15px;
+  }
   .cartscreen__info p:first-child {
     font-weight: bold;
   }
@@ -51,6 +55,13 @@
   
   .cartscreen__right div button:hover {
     opacity: 0.9;
+  }
+  .ordersummary{
+    display: flex;
+    flex-direction: row;
+  }
+  .push{
+    margin-left: auto;
   }
   
   @media (max-width: 1320px) {

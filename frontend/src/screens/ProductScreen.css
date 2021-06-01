@@ -17,7 +17,7 @@
   
   .left__info {
     margin: 1rem;
-    flex: 0.4; /* this will take 40% of the space available i.e 80% from line 8  */
+    flex: 0.6; /* this will take 40% of the space available i.e 80% from line 8  */
     background: #fff;
     height: fit-content;
     font-size: 0.9rem;

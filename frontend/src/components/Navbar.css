@@ -1,7 +1,6 @@
 .navbar {
     width: 100%;
     height: 70px;
-    background-color: #E6E6FA;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,10 +9,11 @@
     border-width: 0px;
     -webkit-box-shadow: 0px 0px;
     box-shadow: 0px 0px;
-    background-color: rgba(0,0,0,0.0);
-    /* background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
-    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
-    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%); */
+    background-color: rgba(248,249,250,.0.5);
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
   }
   
   .navbar__logo h2 {
