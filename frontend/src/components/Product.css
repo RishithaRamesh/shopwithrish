@@ -141,7 +141,7 @@
   .product-img {
     display: block;
     width: 100%;
-    min-height: 12rem;
+    max-height: 12rem;
     transition: all 0.3s linear;
   }
   .img-container:hover .product-img {

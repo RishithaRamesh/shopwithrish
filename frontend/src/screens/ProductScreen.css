@@ -7,12 +7,12 @@
   
   .productscreen__left {
     display: flex;
-    flex: 0.8;/* this will take 80% of the screen  */
+    flex: 0.7;/* this will take 80% of the screen  */
   }
   
   .left__image {
     margin: 1rem;
-    flex: 0.6; /* this will take 60% of the space available i.e 80% from line 8  */
+    flex: 0.4; /* this will take 60% of the space available i.e 80% from line 8  */
   }
   
   .left__info {
@@ -40,7 +40,7 @@
   }
   
   .productscreen__right {
-    flex: 0.2; /* this will take 20% of the screen  */
+    flex: 0.3; /* this will take 20% of the screen  */
   }
   
   .right__info {
