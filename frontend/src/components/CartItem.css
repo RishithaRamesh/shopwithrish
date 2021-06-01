@@ -1,18 +1,28 @@
 .cartitem {
     width: 100%;
-    padding: 1rem;
+    /* padding: 1rem; */
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 4fr 1fr 1fr;
     gap: 8px;
     background: #fff;
     border-radius: 2px;
     place-items: center;
     margin-bottom: 8px;
+    animation: TransitionIn 0.75s;
+  }
+  .cartitem__image{
+      height: 100%;
+      width: 10rem;
+      padding-right: 25px;
+  }
+  .cartitem2{
+    justify-self: start;
   }
   
   .cartItem__name {
     text-decoration: none;
     color: #171717;
+    font-weight: bold;
   }
   
   .cartItem__name:hover {
@@ -41,7 +51,7 @@
   
   @media (max-width: 700px) {
     .cartItem__name {
-      font-size: 0.8rem;
+      font-size: 1rem;
     }
   
     .cartItem__select,
@@ -69,3 +79,13 @@
       font-size: 0.6rem;
     }
   }
+  @keyframes TransitionIn {
+    from{
+       opacity: 0;
+       transform: rotateX(-10deg);
+    }
+    to{
+       opacity: 1;
+       transform: rotateX(0);
+    }
+  }        

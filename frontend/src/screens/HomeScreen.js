@@ -18,13 +18,28 @@ const HomeScreen = () => {
     dispatch(listProducts());
   }, [dispatch]);
 
+function bgChanger() {
+  console.log(this.scrollY);
+  if(this.scrollY > this.innerHeight / 2){
+    document.body.classList.add('bg-active');
+  }else{
+    document.body.classList.remove("bg-active");
+  }
+}
+window.addEventListener("scroll", bgChanger);
+
   return (
 
     <div className="homescreen">
-      {/* <div className="lady">
-          <img className="centerfit" src="try.jpg" alt="lady"></img>
-      </div> */}
-      <h2 className="homescreen__title">Latest Products</h2>
+      <div className="lady">
+          <img className="centerfit" src="try1.jpg" alt="lady"></img>
+          <img className="centerfit1" src="try2.jpg" alt="lady"></img>
+          {/* <img className="centerfit" src="try1.jpg" alt="lady"></img> */}
+          {/* <img className="centerfit" src="lady.jpg" alt="lady"></img> */}
+      </div>
+      <div className="homescreen__title">
+        <h2>Latest Products</h2>
+      </div>
       <div className="homescreen__products">
         {loading ? (
           <h2>Loading...</h2>
