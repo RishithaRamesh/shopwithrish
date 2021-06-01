@@ -2,11 +2,15 @@
 const mongoose = require("mongoose");
 
 const productSchema = mongoose.Schema({
-  name: {
+  ref: {
     type: String,
     required: true,
   },
-  description: {
+  categorie: {
+    type: String,
+    required: true,
+  },
+  name: {
     type: String,
     required: true,
   },
@@ -14,12 +18,20 @@ const productSchema = mongoose.Schema({
     type: Number,
     required: true,
   },
-  countInStock: {
-    type: Number,
+  tags: {
+    type: String,
+    required: true,
+  },
+  description: {
+    type: String,
     required: true,
   },
   imageUrl: {
     type: String,
+    required: true,
+  },
+  countInStock: {
+    type: Number,
     required: true,
   },
 });
