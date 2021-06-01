@@ -7,8 +7,8 @@ No server for now
 1. In the root folder, run `npm install` 
 
 ## How to run the Frontend 
-1. In another terminal, navigate to the `client` directory.
-2. Run `npm install` to install all dependencies.
+1. In another terminal, navigate to the `frontend` directory.
+2. Run `npm install axios bootstrap react-router-dom concurrently` to install all dependencies.
 3. Run `npm run dev` to start the app
 
 ## Check if Frontend is working
