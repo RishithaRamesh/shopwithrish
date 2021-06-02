@@ -5,18 +5,13 @@
 }
 body {
     font-family: "BrilliantCutProMedium","Helvetica neue" Arial, Helvetica, sans-serif;
-    /* background-color: #e5e4e2; */
     background-color: rgba(0, 0, 0, 0.05);
-    /* background-color: #fff; */
-    /* background-color: rgba(255,255,255,0.1); */
     transition: all 0.5s ease;
-    /* background: url(../public/try1.jpg); */
 }
   
 img {
     width: 100%;
     object-fit: scale-down;
-    /* padding: 1rem; */
 }
 /* .bg-active{
     background-color: rgba(0, 0, 0, 0.5);

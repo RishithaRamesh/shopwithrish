@@ -74,8 +74,6 @@
 
   .serviceslist > h2 {
     font-weight: lighter;
-    /* border-right: 1px solid #dadada;
-    border-spacing: 7rem 0px;    */
   }
 
   @media (max-width: 1232px) {
