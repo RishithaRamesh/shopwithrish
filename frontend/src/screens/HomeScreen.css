@@ -1,12 +1,31 @@
 .homescreen {
     max-width: 100%;
-    /* margin: 1rem auto; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    animation: TransitionIn 0.75s;
+    animation: TransitionIn 0.5s;
   }
-
+  .lady1 {
+    position: relative;
+    height: 550px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+  }
+  
+  .lady1 img {
+    position: absolute;
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+  }
   .lady {
     position: relative;
     height: 550px;
@@ -30,27 +49,33 @@
   .lady img.centerfit1:hover {
     opacity:0;
   }
-  /* .centerfit:hover{
-        -webkit-transform: scale(1);
-        -ms-transform: scale(1);
-        transform: scale(1.1);
-        transition: all 0.5s ease;
-} */
-  .bg-active{
-    background-color: #3d3d3d;
-  }
-  /* this actually works in index.js */
+  /* .bg-active{
+    background: #e5e4e2;
+  } */ /* this actually works in index.js */
   .homescreen__title {
     font-size: 1.5rem;
     color: #171717;
     margin-bottom: 1rem;
-    margin-left: 5rem;
     padding-top: 5rem;
+    border-bottom: 1px solid #dadada;
   }
 
   .homescreen__products {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+  }
+  .serviceslist{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 2rem;
+    
+  }
+
+  .serviceslist > h2 {
+    font-weight: lighter;
+    /* border-right: 1px solid #dadada;
+    border-spacing: 7rem 0px;    */
   }
 
   @media (max-width: 1232px) {
@@ -68,6 +93,11 @@
   @media (max-width: 630px) {
     .homescreen__products {
       grid-template-columns: 1fr;
+    }
+    .serviceslist{
+      flex-direction: column;
+      flex: 1;
+      align-items: center;
     }
   }
   @keyframes TransitionIn {

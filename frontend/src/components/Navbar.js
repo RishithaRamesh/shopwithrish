@@ -9,6 +9,18 @@ const Navbar = ({ click }) => {
   const getCartCount = () => {
     return cartItems.reduce((qty, item) => Number(item.qty) + qty, 0);
   };
+  // function bgChange() {
+  //   console.log(this.scrollY);
+  //   if(this.scrollY > this.innerHeight / 2){
+  //     // document.body.classList.add('bg-active');
+  //     document.body.classList.add('cart__link2');
+  //     console.log("hi");
+  //   }else{
+  //     // document.body.classList.remove("bg-active");
+  //     document.body.classList.remove('cart__link2');
+  //   }
+  // }
+  // window.addEventListener("scroll", bgChange);
 
   return (
     <nav className="navbar">

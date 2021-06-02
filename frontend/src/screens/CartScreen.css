@@ -1,7 +1,7 @@
 .cartscreen {
     display: flex;
     max-width: 1300px;
-    margin: 2rem auto;
+    margin: 6rem auto;
     animation: TransitionIn 0.75s;
   }
   
@@ -27,6 +27,7 @@
   .cartscreen__right {
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
+    margin: auto;
   }
   
   .cartscreen__info p{
