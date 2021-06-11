@@ -26,7 +26,7 @@ const Navbar = ({ click }) => {
     <nav className="navbar">
       <div className="navbar__logo">
         {/* <h2>Shopping Cart</h2> */}
-        <img src="logo.png" alt="store logo"></img>
+        <img src="belle.png" alt="store logo"></img>
       </div>
       
       <ul className="navbar__links">
