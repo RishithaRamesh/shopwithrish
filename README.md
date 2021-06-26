@@ -1,7 +1,6 @@
 ## About the app
 
 An e-commerce website to buy accesories using MERN stack.
-No server for now
 
 ##to set up database and backend
 1. In the root folder, run `npm install` 
